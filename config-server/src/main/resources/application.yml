@@ -12,3 +12,9 @@ spring:
           defaultLabel: master
         encrypt:
           enabled: false
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
