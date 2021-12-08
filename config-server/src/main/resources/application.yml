@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: appConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          skipSslValidation: true
+          uri: https://github.com/jvanheesch/spring-cloud-config-bug
+        encrypt:
+          enabled: false
