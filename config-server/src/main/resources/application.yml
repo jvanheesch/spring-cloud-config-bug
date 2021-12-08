@@ -9,5 +9,6 @@ spring:
         git:
           skipSslValidation: true
           uri: https://github.com/jvanheesch/spring-cloud-config-bug
+          defaultLabel: master
         encrypt:
           enabled: false
